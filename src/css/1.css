@@ -1,0 +1,526 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1172px;
+  font-family: "Microsoft YaHei UI";
+}
+
+.row {
+  width: 100%;
+}
+
+.col-1 {
+  width: 8.33333%;
+  float: left;
+}
+
+.col-2 {
+  width: 16.66667%;
+  float: left;
+}
+
+.col-3 {
+  width: 25%;
+  float: left;
+}
+
+.col-4 {
+  width: 33.33333%;
+  float: left;
+}
+
+.col-5 {
+  width: 41.66667%;
+  float: left;
+}
+
+.col-6 {
+  width: 50%;
+  float: left;
+}
+
+.col-7 {
+  width: 58.33333%;
+  float: left;
+}
+
+.col-8 {
+  width: 66.66667%;
+  float: left;
+}
+
+.col-9 {
+  width: 75%;
+  float: left;
+}
+
+.col-10 {
+  width: 83.33333%;
+  float: left;
+}
+
+.col-11 {
+  width: 91.66667%;
+  float: left;
+}
+
+.col-12 {
+  width: 100%;
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
+
+.navbar {
+  height: 75px;
+  line-height: 75px;
+  padding-right: 30px;
+  background: #72b842;
+}
+.navbar .logo {
+  height: 75px;
+  width: 160px;
+  text-indent: -700px;
+  float: left;
+  background: url("../img/logo.png") no-repeat -5px -3px;
+}
+.navbar ul {
+  float: right;
+}
+.navbar ul li {
+  float: left;
+  margin-left: 35px;
+  font-size: 1.2em;
+}
+.navbar ul li a:hover {
+  color: #fff;
+}
+
+.video, .teacher {
+  height: auto;
+}
+
+.v-detail {
+  height: 390px;
+  border: solid 1px #72b842;
+}
+
+.video-detail {
+  height: auto;
+  margin-top: 15px;
+  background-color: #72b842;
+}
+
+.title, .title-a {
+  font-weight: bold;
+  color: #72b842;
+  height: 30px;
+  padding-left: 5px;
+  line-height: 30px;
+}
+.title span, .title-a span {
+  font-size: small;
+}
+
+.teacher-d {
+  height: auto;
+  margin-top: 15px;
+  padding: 10px;
+  background: none;
+}
+
+.title-a {
+  font-size: 1.4em;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #9d9d9d;
+  color: #000;
+}
+.title-a:hover {
+  border-left: 4px solid #72b842;
+}
+
+.header {
+  height: 146px;
+  padding: 1px;
+  width: 107px;
+  margin-top: 10px;
+  background: #72b842;
+}
+
+.t-detail {
+  height: 100px;
+  margin-top: 10px;
+}
+.t-detail span {
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  font-weight: bold;
+  padding-left: 5px;
+}
+.t-detail span:hover {
+  border-left: 4px solid #72b842;
+  cursor: pointer;
+}
+
+.cou-d {
+  margin-top: 10px;
+}
+.cou-d button {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  width: 120px;
+  font-weight: bold;
+  font-size: 1.2em;
+  line-height: 34px;
+  height: 34px;
+  border: none;
+  background: #83c9ff;
+}
+.cou-d button:hover {
+  color: #fff;
+  background: #72b842;
+  cursor: pointer;
+}
+
+.two {
+  margin-top: 20px;
+  border: 1px solid #9d9d9d;
+  height: 350px;
+}
+
+.tab-nav li {
+  float: left;
+  width: 19.90%;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  margin: 0;
+  font-weight: bold;
+  font-size: 1.3em;
+  border-right: 1px solid #9d9d9d;
+  border-bottom: 1px solid #9d9d9d;
+}
+
+.active {
+  border-top: solid #72b842 3px;
+  border-bottom: none !important;
+  height: 58px !important;
+  color: #72b842;
+}
+
+.tab-d {
+  position: absolute;
+  width: 1170px;
+}
+.tab-d > div {
+  height: auto;
+  display: none;
+}
+
+.mess-box {
+  padding-top: 10px;
+  height: 288px;
+  display: block;
+  width: 100%;
+  z-index: 999;
+}
+.mess-box .ls {
+  height: 275px;
+  position: relative;
+  overflow: hidden;
+}
+.mess-box .ls #ul {
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+
+.mess-l {
+  min-height: 70px;
+  height: auto;
+  margin: 5px;
+  padding-left: 5px;
+}
+.mess-l > div {
+  float: left;
+}
+.mess-l .header-l img {
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+.mess-l .mess-d {
+  margin-left: 10px;
+  border: 2px solid #c7ddef;
+  min-height: 67px;
+  height: auto;
+  padding-left: 10px;
+  width: 89%;
+  position: relative;
+}
+.mess-l .mess-d .time {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+.mess-l .mess-d .left {
+  display: block;
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  left: -11px;
+  top: 10px;
+  border-left: 2px solid #c7ddef;
+  border-bottom: 2px solid #c7ddef;
+  transform: rotate(45deg);
+}
+.mess-l .mess-d .name {
+  color: #72b842;
+  font-weight: bold;
+}
+
+.mess-a {
+  margin-top: 5px;
+  padding-right: 55px;
+  line-height: 25px;
+}
+
+.mess-i {
+  height: 287px;
+  margin-top: -10px;
+}
+
+#txt {
+  max-height: 230px;
+  height: 230px;
+  max-width: 383px;
+  margin-top: 2px;
+  width: 383px;
+  line-height: 30px;
+  font-size: 1.2em;
+}
+
+#sublim, #clear1 {
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  border: none;
+  background: #72b842;
+  float: right;
+  font-size: 1.4em;
+  text-align: center;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+#sublim:hover, #clear1:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.alert {
+  width: 240px;
+  display: none;
+  font-size: 1.1em;
+  float: left;
+  border: none;
+  line-height: 30px;
+  height: 30px;
+  margin-top: 5px;
+  background: #519721;
+}
+
+.progress, .progress-a {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background: #f5f5f5;
+  line-height: 25px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  height: 25px;
+}
+.progress .progress-bar, .progress-a .progress-bar, .progress-a .progress-bar-a {
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  height: 25px;
+  line-height: 25px;
+  width: 60%;
+  margin: 0;
+  padding-left: 20px;
+  background: #337ab7;
+}
+
+.progress-a .progress-bar-a {
+  width: 10% !important;
+  background: #72b842;
+}
+
+.code {
+  background-color: #f5f5f5;
+  line-height: 30px;
+}
+
+.test {
+  padding: 10px;
+}
+
+.content {
+  display: none;
+  height: 100px;
+  border: 1px solid #000;
+  border-top: none;
+}
+
+.title-b {
+  background-color: #f5f5f5;
+  margin-top: 5px;
+}
+
+#footer {
+  padding: 10px 0;
+  width: 100%;
+  margin-top: 20px;
+  background: url("../img/background-gray.png") repeat;
+}
+
+.test {
+  width: 200px;
+  background: #72b842;
+  height: 300px;
+}
+
+/*-----  BEGIN FOOTER -----*/
+#footer {
+  padding: 10px 0px;
+  width: 100%;
+  background: url("../img/background-gray.png") repeat;
+}
+
+#footer-wrapper {
+  margin: 0 auto;
+  padding: 20px 0px 20px 0px;
+  width: 960px;
+}
+
+.footer-column {
+  width: 288px;
+  margin: 0 24px 0 0;
+  padding: 0 23px 0 0;
+  border-right: 1px dashed #ccc;
+  float: left;
+}
+
+.footer-column.last {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+#footer .widget h3 {
+  text-align: left;
+  margin: 0 0 15px 0;
+  color: #fff;
+}
+
+#footer .widget h5 {
+  text-align: left;
+  margin: 0 0 15px 0;
+  color: #fff;
+}
+
+#footer .widget p {
+  text-align: left;
+  color: #FFF;
+}
+
+#footer .widget ul {
+  color: #fff;
+  margin: 0 auto;
+}
+
+#footer .widget p {
+  color: #fff;
+  margin: 0 0 15px 0;
+  padding: 0;
+  line-height: 135%;
+}
+
+#footer .widget li {
+  line-height: 135%;
+  margin-left: 0 !important;
+  padding: 0;
+}
+
+#footer .widget li a {
+  text-decoration: none;
+  color: #FFF;
+}

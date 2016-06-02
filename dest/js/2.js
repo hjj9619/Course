@@ -1,0 +1,1 @@
+$(function(){$(".study-btn").hover(function(){$(this).find("div").animate({left:-66},300)},function(){$(this).find("div").animate({left:0},300)})});
