@@ -1,6 +1,6 @@
 {
   "name": "Course",
   "tagline": "",
-  "body": "<h1>Hello World !!!</h1>\r\n",
+  "body": "<iframe src='src/1.html'></iframe>\r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
