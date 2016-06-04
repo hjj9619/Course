@@ -78,16 +78,11 @@ module.exports = function(grunt){
           'src/css/{,*/}*.css',
           'src/js/{,*/}*.js'
         ],
-        tasks:['sass', 'htmlmin', 'cssmin', 'uglify', 'connect']
+        tasks:['sass', 'htmlmin', 'cssmin', 'uglify']//, 'connect']
       }
     }
   });
-  grunt.loadNpmTasks('grunt-contrib-sass');
-  grunt.loadNpmTasks('grunt-contrib-cssmin');
-  grunt.loadNpmTasks('grunt-contrib-uglify');
-  grunt.loadNpmTasks('grunt-contrib-htmlmin');
-  grunt.loadNpmTasks('grunt-contrib-watch');
-
+ 
   grunt.registerTask('default', [
     'sass',
     'cssmin',
