@@ -2,7 +2,7 @@
 .sass-cache/
 .idea/
 .git/
-img/
+#img/
 old/
 */css/ie.css
 */css/print.css
